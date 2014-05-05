@@ -21,7 +21,7 @@ Horizontal axis: dates. Vertical axis: dose rate in µSV/h.
 
 ![half-lives](halflives_fukushima.jpg)
 
-Horizontal axis: number of iterations.
+Horizontal axis: number of iterations. Area around each curve: confidence of the model (or strength of the support from data in the Bayesian sense) that a nuclide with the corresponding decay constant existed.
 
 ## Reference
  * R. Tomioka & M. Mørup (2012) [A Bayesian Analysis of the Radioactive Releases of Fukushima
