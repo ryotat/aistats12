@@ -1,7 +1,7 @@
 function [block,lambda_nucl,misc]=gibbs_radio_multi(data, lambda_nucl, varargin)
 
 gitstring=gitlog;
-stream = RandStream.getDefaultStream();
+stream = RandStream.getGlobalStream();
 randstate=stream.State;
 
 opt=propertylist2struct(varargin{:});

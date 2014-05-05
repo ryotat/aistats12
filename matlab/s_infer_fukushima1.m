@@ -1,4 +1,4 @@
-RandStream.setDefaultStream(RandStream('mt19937ar','seed',sum(100*clock)));
+RandStream.setGlobalStream(RandStream('mt19937ar','seed',sum(100*clock)));
 
 load fukushima1.mat
 
